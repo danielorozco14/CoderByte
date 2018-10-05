@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="CoderByte">
+    <output-path>$PROJECT_DIR$/out/artifacts/CoderByte</output-path>
+    <root id="root">
+      <element id="archive" name="CoderByte.jar">
+        <element id="module-output" name="CoderByte" />
+      </element>
+    </root>
+  </artifact>
+</component>

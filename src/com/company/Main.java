@@ -12,6 +12,7 @@ public class Main {
         Scanner s = new Scanner(System.in);
         LetterChanges ltr = new LetterChanges();
         System.out.println(ltr.LetterChanges(s.nextLine()));
+        s.nextLine();
 
         /**@return Como obtener el codigo ASCII de una caracter
          * char c='c';
