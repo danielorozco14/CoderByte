@@ -1,6 +1,7 @@
 package com.company;
 
 import java.util.Scanner;
+import com.company.SimpleSymbols.*;
 import com.company.SimpleAdding.*;
 import com.company.ChangeLetters.LetterChanges;
 import com.company.FirstReverse.FirstReverse;
@@ -12,6 +13,8 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner s = new Scanner(System.in);
+        simpleSymbols symbols= new simpleSymbols();
+        System.out.println(symbols.simpleSymbols(s.nextLine()));
 
         /**
          * @return Una cadena con todas las palabras de una oracion capitalizadas
