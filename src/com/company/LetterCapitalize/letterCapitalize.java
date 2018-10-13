@@ -8,7 +8,7 @@ public class letterCapitalize {
         StringBuilder sb = new StringBuilder();
 
         for (String pal : palabra.toLowerCase().split(" ")) {
-            char primeraLetra = pal.substring(0, 1).charAt(0);
+            char primeraLetra = pal.substring(0,1).charAt(0);
             if(primeraLetra >= 'a' && primeraLetra <= 'z'  ){
                 sb.append((char)(primeraLetra - 32)).append(pal.substring(1)).append(" ");
             }else{

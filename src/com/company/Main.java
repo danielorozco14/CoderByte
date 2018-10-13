@@ -12,8 +12,15 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner s = new Scanner(System.in);
-        letterCapitalize let = new letterCapitalize();
-        System.out.println(let.letterCapitalize(s.nextLine()));
+
+        /**
+         * @return Una cadena con todas las palabras de una oracion capitalizadas
+         *  letterCapitalize let = new letterCapitalize();
+         *  System.out.println(let.letterCapitalize(s.nextLine()));
+         */
+
+
+
 
         /**
          * @return La suma del 1 hasta el numero pasado por argumento
