@@ -1,8 +1,6 @@
 package com.company;
 
-import com.company.ChangeLetters.LetterChanges;
-import com.company.FirstReverse.FirstReverse;
-import com.company.firstFactorial.FirstFactorial;
+import com.company.SimpleAdding.*;
 
 import java.util.Scanner;
 
@@ -10,9 +8,16 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        LetterChanges ltr = new LetterChanges();
-        System.out.println(ltr.LetterChanges(s.nextLine()));
-        s.nextLine();
+        simpleAdding suma=new simpleAdding();
+        System.out.println(suma.simpleAdding(s.nextInt()));
+
+        /**
+         * @return LetterChanges
+         * LetterChanges ltr = new LetterChanges();
+         *         System.out.println(ltr.LetterChanges(s.nextLine()));
+         *         s.nextLine();
+         */
+
 
         /**@return Como obtener el codigo ASCII de una caracter
          * char c='c';
