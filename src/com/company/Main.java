@@ -1,15 +1,25 @@
 package com.company;
 
-import com.company.SimpleAdding.*;
-
 import java.util.Scanner;
+import com.company.SimpleAdding.*;
+import com.company.ChangeLetters.LetterChanges;
+import com.company.FirstReverse.FirstReverse;
+import com.company.firstFactorial.FirstFactorial;
+import com.company.LetterCapitalize.*;
 
 public class Main {
 
     public static void main(String[] args) {
+
         Scanner s = new Scanner(System.in);
-        simpleAdding suma=new simpleAdding();
-        System.out.println(suma.simpleAdding(s.nextInt()));
+        letterCapitalize let = new letterCapitalize();
+        System.out.println(let.letterCapitalize(s.nextLine()));
+
+        /**
+         * @return La suma del 1 hasta el numero pasado por argumento
+         * simpleAdding suma=new simpleAdding();
+         * System.out.println(suma.simpleAdding(s.nextInt()));
+         **/
 
         /**
          * @return LetterChanges
