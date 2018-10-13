@@ -4,8 +4,7 @@ import java.util.ArrayList;
 
 public class letterCapitalize {
     public String letterCapitalize(String palabra) {
-        //Posiblemente usar palabra.replace(caracter a remplazar,caracter nuevo con el que se reemplaza)
-        // palabra.replaceFirst() o palabra.replaceAll();
+       //Capitalizar todas las palabras contenidas en una oracion
         StringBuilder sb = new StringBuilder();
 
         for (String pal : palabra.toLowerCase().split(" ")) {
