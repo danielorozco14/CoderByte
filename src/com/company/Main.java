@@ -13,8 +13,8 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner s = new Scanner(System.in);
-        simpleSymbols symbols= new simpleSymbols();
-        System.out.println(symbols.simpleSymbols(s.nextLine()));
+        //simpleSymbols symbols= new simpleSymbols();
+        //System.out.println(symbols.simpleSymbols(s.nextLine()));
 
         /**
          * @return Una cadena con todas las palabras de una oracion capitalizadas
@@ -56,6 +56,8 @@ public class Main {
          System.out.println(fr.Reverse(s.nextLine()));
 
          **/
+        FirstReverse fr = new FirstReverse();
+       fr.Reverse(s.nextLine());
 
     }
 }
