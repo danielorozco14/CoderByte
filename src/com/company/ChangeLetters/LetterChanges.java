@@ -12,7 +12,7 @@ public class LetterChanges {
         for (int i = 0; i < str.length(); i++) {
 
             if(strChars[i] >= 'a' && strChars[i] <= 'z'){
-               result.append(replacements[strChars[i] - 97]);
+               result.append(replacements[strChars[i] - 97]);//97 representa un valor en la tabla ASCII
             }
             else {
                 result.append(strChars[i]);
